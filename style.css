@@ -1,7 +1,11 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html,
 body {
     overflow: hidden !important;
     background: none !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 img {
@@ -9,4 +13,28 @@ img {
     height: auto;
     z-index: -1 !important;
     position: absolute;
+    filter: brightness(50%);
+}
+
+div {
+    height: 600px;
+}
+
+#txt {
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    top: 220px;
+    z-index: 999;
+}
+
+h1 {
+    font-size: 56px !important;
+}
+
+#buts {
+    position: relative;
+    text-align: center;
+    top: -230px;
+    z-index: 999999 !important;
 }
