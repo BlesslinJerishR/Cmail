@@ -1,11 +1,12 @@
 html,
 body {
-    background: #1d1e21 !important;
     overflow: hidden !important;
+    background: none !important;
 }
 
 img {
-    object-fit: contain;
     max-width: 100%;
     height: auto;
+    z-index: -1 !important;
+    position: absolute;
 }
